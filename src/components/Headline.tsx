@@ -1,6 +1,12 @@
 import Link from "next/link";
 import React from "react";
-import { FaClock, FaGithub, FaInstagram, FaLinkedin, FaRegLightbulb } from "react-icons/fa";
+import {
+  FaClock,
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaRegLightbulb,
+} from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { IoCall } from "react-icons/io5";
 
@@ -33,9 +39,27 @@ const Headline = () => {
           Mon - Fri; 9AM - 6PM PST
         </p>
         <div className="flex gap-3 items-center text-lg">
-            <Link href={'https://github.com/mehedynoman11'} target="_blank"><FaGithub /></Link>
-            <Link href={'https://www.linkedin.com/in/mehedynoman11/'} target="_blank"><FaLinkedin /></Link>
-            <Link href={'https://www.instagram.com/mehedynoman/'} target="_blank"><FaInstagram /></Link>
+          <Link
+            className="hover:text-[#F7B600]"
+            href={"https://github.com/mehedynoman11"}
+            target="_blank"
+          >
+            <FaGithub />
+          </Link>
+          <Link
+            className="hover:text-[#F7B600]"
+            href={"https://www.linkedin.com/in/mehedynoman11/"}
+            target="_blank"
+          >
+            <FaLinkedin />
+          </Link>
+          <Link
+            className="hover:text-[#F7B600]"
+            href={"https://www.instagram.com/mehedynoman/"}
+            target="_blank"
+          >
+            <FaInstagram />
+          </Link>
         </div>
       </div>
     </div>
