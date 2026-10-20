@@ -5,9 +5,9 @@ import { FaArrowTrendUp } from "react-icons/fa6";
 const Header = () => {
   return (
     <header>
-      <div className="grid grid-cols-1 md:grid-cols-2 max-w-6xl mx-auto container py-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 max-w-6xl mx-auto container py-2 px-4 md:px-0">
         {/* text */}
-        <div className="flex flex-col justify-center max-w-100 mx-auto text-center md:text-left">
+        <div className="md:col-span-1 flex flex-col justify-center max-w-100 text-center md:text-left">
           <span className="mb-3 uppercase text-blue-800 font-bold text-sm">
             FREELANCE WEB DESIGNER
           </span>
@@ -41,7 +41,7 @@ const Header = () => {
         </div>
 
         {/* image */}
-        <div className="relative flex justify-center overflow-hidden rounded-2xl">
+        <div className="md:col-span-1 relative flex justify-center overflow-hidden rounded-2xl">
           {/* মূল ছবি */}
           <Image
             src="/hero.jpeg"
