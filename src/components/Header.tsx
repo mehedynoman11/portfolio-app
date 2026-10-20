@@ -4,7 +4,8 @@ import { FaArrowTrendUp } from "react-icons/fa6";
 
 const Header = () => {
   return (
-    <header>
+    <section id="about">
+      <header>
       <div className="grid grid-cols-1 md:grid-cols-2 max-w-6xl mx-auto container py-2 px-4 md:px-0">
         {/* text */}
         <div className="md:col-span-1 flex flex-col justify-center max-w-100 text-center md:text-left">
@@ -79,6 +80,7 @@ const Header = () => {
         </div>
       </div>
     </header>
+    </section>
   );
 };
 
