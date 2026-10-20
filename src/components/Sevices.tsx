@@ -7,7 +7,7 @@ import { TbArrowWaveRightUp } from "react-icons/tb";
 
 const Services = () => {
   return (
-    <section className="bg-[#E9F3FD] py-8">
+    <section id="services" className="bg-[#E9F3FD] py-8">
       <div className="container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-4 gap-5 px-4 md:px-0">
         {/* text  */}
         <div className="col-span-1 p-2 w-60">

@@ -64,11 +64,11 @@ const FooterPage = () => {
           <span className="mb-3 uppercase text-[#FFC502] font-bold text-sm">
             Resources
           </span>
-          <p className="text-xs font-bold mb-1">About Me</p>
-          <p className="text-xs font-bold mb-1">Services</p>
-          <p className="text-xs font-bold mb-1">My Work</p>
-          <p className="text-xs font-bold mb-1">Process</p>
-          <p className="text-xs font-bold mb-1">Blog</p>
+          <p className="text-xs font-bold mb-1">FAQs</p>
+          <p className="text-xs font-bold mb-1">Web Design Tips</p>
+          <p className="text-xs font-bold mb-1">Brand Style Guide</p>
+          <p className="text-xs font-bold mb-1">Useful Tools</p>
+          <p className="text-xs font-bold mb-1">Tutorials</p>
         </div>
         {/* Lets connect  */}
         <div className="flex flex-col text-white">
